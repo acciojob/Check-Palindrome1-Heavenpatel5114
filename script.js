@@ -3,10 +3,10 @@
 function palindrome(str){
 	let s=0,e=str.length-1;
 
-	str=str.toLowercase();
+	str=str.toLowerCase();
 	while(s<=e)
 		{
-			if(str.CharAt(s)===str.charAt(e))
+			if(str.charAt(s)===str.charAt(e))
 			{s++;e--;}
 
 			else
